@@ -19,26 +19,30 @@ struct ProfileLine: View {
             } placeholder: {
                 ProgressView()
             }
-            Text("CodeByBreno").font(.footnote)
+            Text("CodeByBreno").font(.system(size: 12))
         }
     }
 }
 
 struct AlbumTitle: View {
     var body: some View {
-        VStack {
-            SizedBox(height: 50)
-            Image("caminhao")
+        VStack() {
+            SizedBox(height: 10)
+            Image("rising_sun")
                 .resizable()
-                .frame(width: 200, height: 200)
+                .frame(width: 160, height: 160)
+                .cornerRadius(40)
+            SizedBox(height: 20)
             Text("HackaFM")
-                .font(.title)
+                .font(.system(size: 20))
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             SizedBox(height: 5)
             Text("General album")
+                .font(.system(size: 14))
             SizedBox(height: 20)
             ProfileLine()
         }
-        .frame(width: 350, height: 400)
+        .frame(width: 330, height: 300)
         .background(Color.gray.opacity(0.15))
         .cornerRadius(20)
     }
@@ -46,14 +50,15 @@ struct AlbumTitle: View {
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            SizedBox(height: 30)
-            AlbumTitle()
-            SizedBox(height: 10)
-            ListMusic().padding()
+        NavigationStack {
+            VStack {
+                AlbumTitle()
+                SizedBox(height: 10)
+                ListMusic().padding()
+            }
+            .padding()
+            .background(Color.white)
         }
-        .padding()
-        .background(Color(red: 0.87, green: 1.0, blue: 0.95))
     }
 }
 

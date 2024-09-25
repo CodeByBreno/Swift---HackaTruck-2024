@@ -6,8 +6,8 @@ struct InformationMusicLine: View {
     
     var body: some View {
         VStack(alignment: .leading){
-            Text(name)
-            Text(artist)
-        }.frame(width: 200, alignment: .leading)
+            Text(name).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/).font(.system(size: 12))
+            Text(artist).font(.system(size: 10))
+        }.frame(alignment: .leading)
     }
 }

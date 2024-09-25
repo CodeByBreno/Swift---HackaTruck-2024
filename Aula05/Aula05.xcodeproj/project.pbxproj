@@ -14,8 +14,9 @@
 		C58BCF1B2CA32426009FF8DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF1A2CA32426009FF8DF /* Model.swift */; };
 		C58BCF1E2CA335BA009FF8DF /* SizedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF1D2CA335BA009FF8DF /* SizedBox.swift */; };
 		C58BCF212CA335F3009FF8DF /* ListMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF202CA335F3009FF8DF /* ListMusic.swift */; };
-		C58BCF232CA3361E009FF8DF /* CoverMusicLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF222CA3361E009FF8DF /* CoverMusicLine.swift */; };
+		C58BCF232CA3361E009FF8DF /* CoverMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF222CA3361E009FF8DF /* CoverMusic.swift */; };
 		C58BCF252CA33678009FF8DF /* InformationMusicLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF242CA33678009FF8DF /* InformationMusicLine.swift */; };
+		C58BCF282CA4747B009FF8DF /* MusicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF272CA4747B009FF8DF /* MusicPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		C58BCF1A2CA32426009FF8DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C58BCF1D2CA335BA009FF8DF /* SizedBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizedBox.swift; sourceTree = "<group>"; };
 		C58BCF202CA335F3009FF8DF /* ListMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMusic.swift; sourceTree = "<group>"; };
-		C58BCF222CA3361E009FF8DF /* CoverMusicLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverMusicLine.swift; sourceTree = "<group>"; };
+		C58BCF222CA3361E009FF8DF /* CoverMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverMusic.swift; sourceTree = "<group>"; };
 		C58BCF242CA33678009FF8DF /* InformationMusicLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationMusicLine.swift; sourceTree = "<group>"; };
+		C58BCF272CA4747B009FF8DF /* MusicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		C58BCF1C2CA3359B009FF8DF /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				C58BCF262CA47459009FF8DF /* MusicPage */,
 				C58BCF1F2CA335DD009FF8DF /* ListMusic */,
 				C58BCF1D2CA335BA009FF8DF /* SizedBox.swift */,
 			);
@@ -92,10 +95,18 @@
 			isa = PBXGroup;
 			children = (
 				C58BCF202CA335F3009FF8DF /* ListMusic.swift */,
-				C58BCF222CA3361E009FF8DF /* CoverMusicLine.swift */,
+				C58BCF222CA3361E009FF8DF /* CoverMusic.swift */,
 				C58BCF242CA33678009FF8DF /* InformationMusicLine.swift */,
 			);
 			path = ListMusic;
+			sourceTree = "<group>";
+		};
+		C58BCF262CA47459009FF8DF /* MusicPage */ = {
+			isa = PBXGroup;
+			children = (
+				C58BCF272CA4747B009FF8DF /* MusicPage.swift */,
+			);
+			path = MusicPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58BCF282CA4747B009FF8DF /* MusicPage.swift in Sources */,
 				C58BCF1B2CA32426009FF8DF /* Model.swift in Sources */,
-				C58BCF232CA3361E009FF8DF /* CoverMusicLine.swift in Sources */,
+				C58BCF232CA3361E009FF8DF /* CoverMusic.swift in Sources */,
 				C58BCF1E2CA335BA009FF8DF /* SizedBox.swift in Sources */,
 				C58BCF212CA335F3009FF8DF /* ListMusic.swift in Sources */,
 				C58BCF252CA33678009FF8DF /* InformationMusicLine.swift in Sources */,

@@ -9,10 +9,21 @@ struct ListMusic: View {
                     id: \.self
                 ) {
                     music in
-                    MusicLine(music: music)
+                    NavigationLink(
+                        destination: MusicPage(music: music)){
+                        MusicLine(music: music)
+                    }.buttonStyle(.plain)
                 }
             }
         }
+    }
+}
+
+func formatNumber(_ id: Int) -> String {
+    if id < 10 {
+        return "0\(id)"
+    } else {
+        return "\(id)"
     }
 }
 
@@ -21,7 +32,11 @@ struct MusicLine: View {
         
     var body: some View {
         HStack {
-            CoverMusicLine(imageUrl: music.cover)
+            Text(formatNumber(music.id))
+                .padding()
+                .font(.system(size: 10))
+                .foregroundColor(.gray)
+            CoverMusic(imageUrl: music.cover)
             SizedBox(width: 20)
             InformationMusicLine(name: music.name, artist: music.artist)
         }.frame(
