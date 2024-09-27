@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C58BCF502CA71668009FF8DF /* Aula07App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF4F2CA71668009FF8DF /* Aula07App.swift */; };
-		C58BCF522CA71668009FF8DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF512CA71668009FF8DF /* ContentView.swift */; };
+		C58BCF522CA71668009FF8DF /* HarryPotterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF512CA71668009FF8DF /* HarryPotterAPI.swift */; };
 		C58BCF542CA7166A009FF8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58BCF532CA7166A009FF8DF /* Assets.xcassets */; };
 		C58BCF572CA7166A009FF8DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58BCF562CA7166A009FF8DF /* Preview Assets.xcassets */; };
+		C58BCF5E2CA72339009FF8DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF5D2CA72339009FF8DF /* Model.swift */; };
+		C58BCF602CA72347009FF8DF /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF5F2CA72347009FF8DF /* Controller.swift */; };
+		C58BCF622CA72F0A009FF8DF /* CharView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF612CA72F0A009FF8DF /* CharView.swift */; };
+		C58BCF642CA73061009FF8DF /* SizedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58BCF632CA73061009FF8DF /* SizedBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C58BCF4C2CA71668009FF8DF /* Aula07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula07.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58BCF4F2CA71668009FF8DF /* Aula07App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula07App.swift; sourceTree = "<group>"; };
-		C58BCF512CA71668009FF8DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C58BCF512CA71668009FF8DF /* HarryPotterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterAPI.swift; sourceTree = "<group>"; };
 		C58BCF532CA7166A009FF8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C58BCF562CA7166A009FF8DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C58BCF5D2CA72339009FF8DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C58BCF5F2CA72347009FF8DF /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		C58BCF612CA72F0A009FF8DF /* CharView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharView.swift; sourceTree = "<group>"; };
+		C58BCF632CA73061009FF8DF /* SizedBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizedBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				C58BCF4F2CA71668009FF8DF /* Aula07App.swift */,
-				C58BCF512CA71668009FF8DF /* ContentView.swift */,
+				C58BCF512CA71668009FF8DF /* HarryPotterAPI.swift */,
 				C58BCF532CA7166A009FF8DF /* Assets.xcassets */,
 				C58BCF552CA7166A009FF8DF /* Preview Content */,
+				C58BCF5D2CA72339009FF8DF /* Model.swift */,
+				C58BCF5F2CA72347009FF8DF /* Controller.swift */,
+				C58BCF612CA72F0A009FF8DF /* CharView.swift */,
+				C58BCF632CA73061009FF8DF /* SizedBox.swift */,
 			);
 			path = Aula07;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C58BCF522CA71668009FF8DF /* ContentView.swift in Sources */,
+				C58BCF5E2CA72339009FF8DF /* Model.swift in Sources */,
+				C58BCF522CA71668009FF8DF /* HarryPotterAPI.swift in Sources */,
 				C58BCF502CA71668009FF8DF /* Aula07App.swift in Sources */,
+				C58BCF642CA73061009FF8DF /* SizedBox.swift in Sources */,
+				C58BCF622CA72F0A009FF8DF /* CharView.swift in Sources */,
+				C58BCF602CA72347009FF8DF /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
