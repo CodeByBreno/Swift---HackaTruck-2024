@@ -7,25 +7,6 @@
 
 import SwiftUI
 
-struct ImageCharacter: View {
-    @State var url: String?;
-    @State var dimension: Double?;
-        
-    var body: some View {
-        AsyncImage(url: URL(string: url ?? "")) {
-            image in
-            image
-                .resizable()
-                .scaledToFill()
-                .frame(width: dimension ?? 90, height: dimension ?? 90)
-                .cornerRadius(.infinity)
-                .clipped()
-        } placeholder: {
-            ProgressView()
-        }
-    }
-}
-
 struct LineCharacter: View {
     @State var character: Character;
     
@@ -36,6 +17,7 @@ struct LineCharacter: View {
                 SizedBox(width: 20)
                 Text(character.name ?? "Nome não informado")
                     .font(.system(size: 20))
+                    .foregroundStyle(Color.white)
             }
             .frame(
                 maxWidth: .infinity,
@@ -73,6 +55,7 @@ struct HarryPotterAPI: View {
             .onAppear {
                 controllerCharacter.fetchData()
             }
+            .background(Color(red: 0.5, green: 0.1, blue: 0.1))
         }
     }
 }
