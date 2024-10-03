@@ -21,9 +21,11 @@ struct ImageBasic: View {
                     ProgressView()
                 }
             VStack(alignment: .leading){
-                Text("HackaTruck").foregroundColor(.red)
+                Text("HackaTruck").foregroundColor(.red).font(.system(size: 30))
                 Text("77 Universidades").foregroundColor(.blue)
+                    .font(.system(size: 30))
                 Text("5 Regiões").foregroundColor(.yellow)
+                    .font(.system(size: 30))
             }.padding()
         }
     }

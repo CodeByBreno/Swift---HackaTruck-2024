@@ -36,3 +36,7 @@ struct ColorsSquares: View {
         }
     }
 }
+
+#Preview {
+    ColorsSquares()
+}

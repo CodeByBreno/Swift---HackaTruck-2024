@@ -1,0 +1,203 @@
+[
+    {
+        "id": "9cda91fd5dd55cb1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "329527e4fa7d8707",
+        "type": "http in",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "url": "/search",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "7c6eb8593ef3da7b"
+            ]
+        ]
+    },
+    {
+        "id": "7c6eb8593ef3da7b",
+        "type": "cloudantplus in",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "cloudant": "d18906f81c38456a",
+        "database": "breno_db",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "25c9313bf42a5572"
+            ]
+        ]
+    },
+    {
+        "id": "3b2ca7c57f6800c9",
+        "type": "http in",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "url": "/register",
+        "method": "post",
+        "upload": true,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 340,
+        "wires": [
+            [
+                "8b3c54b61f7482c3"
+            ]
+        ]
+    },
+    {
+        "id": "32e4289eb628506b",
+        "type": "http response",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 570,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8b3c54b61f7482c3",
+        "type": "cloudantplus out",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "cloudant": "d18906f81c38456a",
+        "database": "breno_db",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 380,
+        "y": 340,
+        "wires": [
+            [
+                "32e4289eb628506b"
+            ]
+        ]
+    },
+    {
+        "id": "25c9313bf42a5572",
+        "type": "http response",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 570,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "03aa34e7c634ac0c",
+        "type": "http in",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "url": "/update",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 440,
+        "wires": [
+            [
+                "8419285f839f6389"
+            ]
+        ]
+    },
+    {
+        "id": "9284d1a1290146a4",
+        "type": "http response",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 570,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f0723e17e502ce42",
+        "type": "cloudantplus in",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "cloudant": "d18906f81c38456a",
+        "database": "breno_db",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 380,
+        "y": 520,
+        "wires": [
+            [
+                "ef43b76518ff135a"
+            ]
+        ]
+    },
+    {
+        "id": "822d12e21a3bb5cd",
+        "type": "http in",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "url": "/delete",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 520,
+        "wires": [
+            [
+                "f0723e17e502ce42"
+            ]
+        ]
+    },
+    {
+        "id": "ef43b76518ff135a",
+        "type": "http response",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 570,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8419285f839f6389",
+        "type": "cloudantplus out",
+        "z": "9cda91fd5dd55cb1",
+        "name": "",
+        "cloudant": "d18906f81c38456a",
+        "database": "breno_db",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 380,
+        "y": 440,
+        "wires": [
+            [
+                "9284d1a1290146a4"
+            ]
+        ]
+    },
+    {
+        "id": "d18906f81c38456a",
+        "type": "cloudantplus",
+        "host": "https://8685b21f-dcdc-4864-a9bc-84e5121ccc12-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "breno",
+        "useapikey": true
+    }
+]
