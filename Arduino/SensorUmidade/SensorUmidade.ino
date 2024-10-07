@@ -1,12 +1,18 @@
-#include <WiFi.h>
+#include <Arduino.h>
+#include <ESP8266WiFi.h>
+#include <ESP8266HTTPClient.h>
 
 #define pinoUmidadeAnalog A0
-#define pinoUmidadeDigital 1
-#define ledVermelho 5
-#define ledVerde 6
+#define pinoUmidadeDigital 5
+#define ledVermelho 0
+#define ledVerde 4
 
-const char* ssid = "HackaTruck";
-const char* password =  "????";
+WiFiClient client;
+HTTPClient httpClient;
+
+const char* ssid = "HackaTruckIoT";
+const char* password =  "iothacka";
+const char *URL = "http://127.0.0.1:1880/humid";
 
 int valorUmidade = 0;
 int valorUmidadeNormalizado = 0;
@@ -36,21 +42,26 @@ void setup(){
 }
 
 void loop(){
-  valorUmidade = analogRead(umidadeAnalogica);
+  valorUmidade = analogRead(pinoUmidadeAnalog);
   valorUmidadeNormalizado = map(valorUmidade, 1023, 315, 0, 100);
 
   Serial.print("Umidade detectada: ");
   Serial.println(valorUmidadeNormalizado);
 
-  valorUmidadeDigital = digitalRead(pinoUmidadeDigital);  
-  if (valorUmidadeDigital == 0) {
-    Serial.prinln("Status: Solo úmido");
+  if (valorUmidadeNormalizado > 50) {
+    Serial.println("Status: Solo úmido");
     digitalWrite(ledVermelho, LOW);
     digitalWrite(ledVerde, HIGH);
   } else {
-    Serial.prinln("Status: Solo seco");
+    Serial.println("Status: Solo seco");
     digitalWrite(ledVermelho, HIGH);
     digitalWrite(ledVerde, LOW);
   }
 
+  httpClient.begin(client, URL);
+  httpClient.addHeader("Content-Type", "application/x-www-form-urlencoded");
+  httpClient.POST(String(valorUmidadeNormalizado));
+  httpClient.end();
+
+  delay(5000);
 }
