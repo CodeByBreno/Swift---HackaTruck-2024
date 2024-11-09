@@ -13,10 +13,10 @@ Nesse repositório eu salvei todos as aplicações que desenvolvi durante esse t
 
 <h3>Fotos ao longo do projeto: </h3>
 <p align=center>
-<img src="https://github.com/user-attachments/assets/c135a988-d47f-40a5-97d4-ed8925334adc" width=435>
-<img src="https://github.com/user-attachments/assets/711d1b10-7ede-4bce-9fdd-c374fc57d35e" width=435>
-<img src="https://github.com/user-attachments/assets/e735b176-4478-4717-93bd-d3df97545100" width=400>
-<img src="https://github.com/user-attachments/assets/a044abaf-c3ee-435f-a418-4ba40cdd8642" width=470>
+<img src="https://github.com/user-attachments/assets/c135a988-d47f-40a5-97d4-ed8925334adc" width=300>
+<img src="https://github.com/user-attachments/assets/711d1b10-7ede-4bce-9fdd-c374fc57d35e" width=300>
+<img src="https://github.com/user-attachments/assets/e735b176-4478-4717-93bd-d3df97545100" width=255>
+<img src="https://github.com/user-attachments/assets/a044abaf-c3ee-435f-a418-4ba40cdd8642" width=300>
 </p>
 
 
@@ -38,16 +38,16 @@ Uma vez importado, será possível visualizar o projeto. Porém acredito que ele
 a aplicação, através de notificações, o lembraria de fazê-los. Além disso, o aplicativo também contaria com elementos de gamificação, permitindo que a prática de novos hábitos se torne algo natural e agradável. Junto com isso, existe também o sistema
 de metas, que são objetivos de longo prazo alcançados através, geralmente, de pequenos hábitos. Cada hábito poderia ser vinculado à uma meta e isso ajudaria o usuário a acompanhar a sua conquista</p>
 <p align=center>
-  <img src="https://github.com/user-attachments/assets/b804c0d0-3f5c-4e4c-b41a-82dae020ad1e" width=210>
-  <img src="https://github.com/user-attachments/assets/49e349ee-476c-4112-a7e2-4e21e3b5db75" width=210>
-  <img src="https://github.com/user-attachments/assets/69de4d76-6f02-4ad3-b458-bc79616e4eb2" width=225>
-  <img src="https://github.com/user-attachments/assets/ca3b8c26-15fc-462a-8cfa-ba457187a14d" width=220>
+  <img src="https://github.com/user-attachments/assets/b804c0d0-3f5c-4e4c-b41a-82dae020ad1e" width=180>
+  <img src="https://github.com/user-attachments/assets/49e349ee-476c-4112-a7e2-4e21e3b5db75" width=180>
+  <img src="https://github.com/user-attachments/assets/69de4d76-6f02-4ad3-b458-bc79616e4eb2" width=205>
+  <img src="https://github.com/user-attachments/assets/ca3b8c26-15fc-462a-8cfa-ba457187a14d" width=200>
 </p>
 <p align=center>
-  <img src="https://github.com/user-attachments/assets/0d048795-520e-46cc-879f-33631147a17b" width=210>
-  <img src="https://github.com/user-attachments/assets/dc6f2016-fcb6-43dc-9e45-2467f27ae58f" width=220>
-  <img src="https://github.com/user-attachments/assets/2bdac935-5fda-46ec-97fd-c5be32234f1e" width=220>
-  <img src="https://github.com/user-attachments/assets/9f6dfbe9-43d2-4038-9118-121b1ed67b80" width=210>
+  <img src="https://github.com/user-attachments/assets/0d048795-520e-46cc-879f-33631147a17b" width=180>
+  <img src="https://github.com/user-attachments/assets/dc6f2016-fcb6-43dc-9e45-2467f27ae58f" width=200>
+  <img src="https://github.com/user-attachments/assets/2bdac935-5fda-46ec-97fd-c5be32234f1e" width=200>
+  <img src="https://github.com/user-attachments/assets/9f6dfbe9-43d2-4038-9118-121b1ed67b80" width=190>
 </p>
 
 <h2><Strong>Node-Red e ferramentas TechToSpeech/SpeechToText: </Strong></h2>
@@ -64,9 +64,9 @@ de metas, que são objetivos de longo prazo alcançados através, geralmente, de
 
 <h2><Strong>Interface de um Reprodutor de Musicas</Strong></h2>
 <p align=center>
-  <img src="https://github.com/user-attachments/assets/a85550d1-9b17-4f25-89b6-a13b9be11412" width=300>
-  <img src="https://github.com/user-attachments/assets/671a810b-9e44-4cc1-93d4-aac0c5ddaba5" width=300>
-  <img src="https://github.com/user-attachments/assets/fc4b4a88-da9e-4f97-b23f-670adcfed725" width=300>
+  <img src="https://github.com/user-attachments/assets/a85550d1-9b17-4f25-89b6-a13b9be11412" width=250>
+  <img src="https://github.com/user-attachments/assets/671a810b-9e44-4cc1-93d4-aac0c5ddaba5" width=250>
+  <img src="https://github.com/user-attachments/assets/fc4b4a88-da9e-4f97-b23f-670adcfed725" width=250>
 </p>
 
 <h2><Strong>Clone do Instagram</Strong></h2>
@@ -76,9 +76,9 @@ de metas, que são objetivos de longo prazo alcançados através, geralmente, de
 
 <h2><Strong>Treinando Componentes, Input e Organização da tela: </Strong></h2>
 <p align=center>
-  <img src="https://github.com/user-attachments/assets/ca142acf-cb69-46f2-a042-75e8bcd031aa" width=300>
-  <img src="https://github.com/user-attachments/assets/ac303e9c-76cd-4605-9d12-31dd236881f0" width=300>
-  <img src="https://github.com/user-attachments/assets/ea123212-4379-45f6-80ca-c0e98b48708d" width=300>
+  <img src="https://github.com/user-attachments/assets/ca142acf-cb69-46f2-a042-75e8bcd031aa" width=250>
+  <img src="https://github.com/user-attachments/assets/ac303e9c-76cd-4605-9d12-31dd236881f0" width=250>
+  <img src="https://github.com/user-attachments/assets/ea123212-4379-45f6-80ca-c0e98b48708d" width=250>
 </p>
 
 <h2><Strong>Primeiras aulas: Introdução ao mac e Exercício de programação básica: </Strong></h2>
