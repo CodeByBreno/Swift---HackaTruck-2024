@@ -22,14 +22,12 @@ Nesse repositório eu salvei todos as aplicações que desenvolvi durante esse t
 
 # ⚙️ Como Executar o Projeto?
 
-Todos os projetos em SwiftUI foram construídos usando o XCode. Para executar, basta abrir a pasta desejada com essa ferramenta (em um ambiente MacOS) e acessar o arquivo onde conste a tag #Preview, que inicializa a pré visualização da aplicação no
-simulador iOS da plataforma Mac.
+Todos os projetos em SwiftUI foram construídos usando o XCode. Para executar, basta abrir a pasta desejada com essa ferramenta (em um ambiente MacOS) e acessar o(s) arquivo(s) onde conste a tag #Preview, que inicializa a pré visualização da aplicação no
+simulador iOS da plataforma Mac (o XCode automaticamente inicia o emulador nesses casos)
 
-Para os projetos em NodeRed, você precisa instalar o NodeRed em usa máquina (dá para fazer usando npm, veja https://nodered.org/docs/getting-started/local). Depois, inicialize um servidor NodeRed executando "node-red" no terminal. 
+Para os projetos em NodeRed, você precisa instalar o NodeRed na sua máquina (dá para fazer usando npm, veja https://nodered.org/docs/getting-started/local). Depois, inicialize um servidor NodeRed executando "node-red" no terminal. 
 Agora abrir a interface web acessando o ip apresentado nos logs produzidos após executar NodeRed (só colocar o IP no navegador e acessar a página).
-Lá, você deverá importar o arquivo JSON do projeto através do canto superior direito.
-
-Uma vez importado, será possível visualizar o projeto. Porém acredito que ele não conseguirá ser executado, pois as chaves de permissão disponibilizadas durante o Hackatruck provavelmente não são mais válidas para acessar o banco Cloudant.
+Lá, você deverá importar o arquivo JSON do projeto através do canto superior direito; uma vez importado, será possível visualizar o projeto. Porém acredito que ele não conseguirá ser executado, pois as chaves de permissão disponibilizadas durante o Hackatruck provavelmente não são mais válidas para acessar o banco Cloudant.
 
 # 🖼️ Imagens dos projetos desenvolvidos e experiência
 
