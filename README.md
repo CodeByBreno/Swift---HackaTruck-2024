@@ -13,10 +13,10 @@ Nesse repositório eu salvei todos as aplicações que desenvolvi durante esse t
 
 <h3>Fotos ao longo do projeto: </h3>
 <p align=center>
-<img src="https://github.com/user-attachments/assets/c135a988-d47f-40a5-97d4-ed8925334adc" width=330>
-<img src="https://github.com/user-attachments/assets/711d1b10-7ede-4bce-9fdd-c374fc57d35e" width=330>
-<img src="https://github.com/user-attachments/assets/e735b176-4478-4717-93bd-d3df97545100" width=275>
-<img src="https://github.com/user-attachments/assets/a044abaf-c3ee-435f-a418-4ba40cdd8642" width=330>
+<img src="https://github.com/user-attachments/assets/c135a988-d47f-40a5-97d4-ed8925334adc" width=400>
+<img src="https://github.com/user-attachments/assets/711d1b10-7ede-4bce-9fdd-c374fc57d35e" width=400>
+<img src="https://github.com/user-attachments/assets/e735b176-4478-4717-93bd-d3df97545100" width=355>
+<img src="https://github.com/user-attachments/assets/a044abaf-c3ee-435f-a418-4ba40cdd8642" width=400>
 </p>
 
 
