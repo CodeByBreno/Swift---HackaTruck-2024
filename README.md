@@ -79,7 +79,7 @@ de metas, que são objetivos de longo prazo alcançados através, geralmente, de
   <img src="https://github.com/user-attachments/assets/ea123212-4379-45f6-80ca-c0e98b48708d" width=250>
 </p>
 
-<h2><Strong>Primeiras aulas: Introdução ao mac e Exercício de programação básica: </Strong></h2>
+<h2><Strong>Primeiras aulas: Conhecendo o MAC-OS </Strong></h2>
 <p align=center>
   <img src="https://github.com/user-attachments/assets/98faf439-e1d1-4050-bb7d-9f3b996cb13f" width=300>
   <img src="https://github.com/user-attachments/assets/6e20d69e-a74f-4a69-9d27-6bf784a25986" width=300>
